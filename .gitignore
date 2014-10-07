@@ -1,0 +1,34 @@
+#################
+## KiCad Library Excludes
+#################
+*.bak
+*.dcm
+*.bck
+
+#################
+# Wings 3D File Excludes
+#################
+*.wings~
+
+#################
+# Other miscellaneous Ignores
+#################
+*.txt~
+.gitignore~
+
+
+############
+## Windows
+############
+
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini
+
+
+############
+## Mac
+############
+.DS_Store
