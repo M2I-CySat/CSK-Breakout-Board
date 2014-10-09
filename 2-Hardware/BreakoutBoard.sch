@@ -36,11 +36,12 @@ LIBS:RF_OEM_Parts
 LIBS:Sensors
 LIBS:TransistorParts
 LIBS:CubeSat
-EELAYER 27 0
+LIBS:BreakoutBoard-cache
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title ""
 Date "7 oct 2014"
 Rev ""
@@ -66,5 +67,11 @@ S 5550 5300 800  550
 U 54338D2E
 F0 "CubeSat Bus" 50
 F1 "CubeSatBus.sch" 50
+$EndSheet
+$Sheet
+S 7700 4000 1300 700 
+U 543726AE
+F0 "Bus Pirate Connectors" 60
+F1 "BusPirateConnectors.sch" 60
 $EndSheet
 $EndSCHEMATC
