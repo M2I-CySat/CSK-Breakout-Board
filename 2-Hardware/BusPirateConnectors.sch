@@ -455,9 +455,9 @@ MEM_WP_3
 Text GLabel 4800 6250 2    60   Input ~ 0
 MEM_WP_4
 Text GLabel 9500 3300 2    60   Input ~ 0
-SDI0
-Text GLabel 9500 3400 2    60   Input ~ 0
 SDO0
+Text GLabel 9500 3400 2    60   Input ~ 0
+SDI0
 Text GLabel 7300 3300 0    60   Input ~ 0
 SCK0
 Text GLabel 7300 3400 0    60   Input ~ 0
