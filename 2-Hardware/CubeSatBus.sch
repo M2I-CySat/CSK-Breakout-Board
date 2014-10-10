@@ -36,11 +36,12 @@ LIBS:RF_OEM_Parts
 LIBS:Sensors
 LIBS:TransistorParts
 LIBS:CubeSat
-EELAYER 27 0
+LIBS:BreakoutBoard-cache
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
+Sheet 2 3
 Title ""
 Date "7 oct 2014"
 Rev ""
@@ -85,10 +86,10 @@ Wire Wire Line
 Wire Wire Line
 	2750 2400 2500 2400
 $Comp
-L +5V #PWR?
+L +5V #PWR01
 U 1 1 54338DBE
 P 3750 3350
-F 0 "#PWR?" H 3750 3440 20  0001 C CNN
+F 0 "#PWR01" H 3750 3440 20  0001 C CNN
 F 1 "+5V" H 3750 3440 30  0000 C CNN
 F 2 "" H 3750 3350 60  0000 C CNN
 F 3 "" H 3750 3350 60  0000 C CNN
@@ -105,10 +106,10 @@ Wire Wire Line
 	3750 3500 4300 3500
 Connection ~ 3750 3400
 $Comp
-L +3.3V #PWR?
+L +3.3V #PWR02
 U 1 1 54338DDF
 P 5500 950
-F 0 "#PWR?" H 5500 910 30  0001 C CNN
+F 0 "#PWR02" H 5500 910 30  0001 C CNN
 F 1 "+3.3V" H 5500 1060 30  0000 C CNN
 F 2 "" H 5500 950 60  0000 C CNN
 F 3 "" H 5500 950 60  0000 C CNN
@@ -125,10 +126,10 @@ Wire Wire Line
 	5500 1100 5300 1100
 Connection ~ 5500 1000
 $Comp
-L GND #PWR?
+L GND #PWR03
 U 1 1 54338E19
 P 5500 1450
-F 0 "#PWR?" H 5500 1450 30  0001 C CNN
+F 0 "#PWR03" H 5500 1450 30  0001 C CNN
 F 1 "GND" H 5500 1380 30  0001 C CNN
 F 2 "" H 5500 1450 60  0000 C CNN
 F 3 "" H 5500 1450 60  0000 C CNN
@@ -147,10 +148,10 @@ Connection ~ 5500 1300
 Wire Wire Line
 	5500 1300 5300 1300
 $Comp
-L +BATT #PWR?
+L +BATT #PWR04
 U 1 1 54338E7D
 P 6200 2800
-F 0 "#PWR?" H 6200 2750 20  0001 C CNN
+F 0 "#PWR04" H 6200 2750 20  0001 C CNN
 F 1 "+BATT" H 6200 2900 30  0000 C CNN
 F 2 "" H 6200 2800 60  0000 C CNN
 F 3 "" H 6200 2800 60  0000 C CNN
@@ -209,30 +210,6 @@ Text Label 1200 1200 2    60   ~ 0
 IO.21
 Text Label 1200 1300 2    60   ~ 0
 IO.20
-Text Label 1200 1400 2    60   ~ 0
-IO.19
-Text Label 1200 1500 2    60   ~ 0
-IO.18
-Text Label 1200 1600 2    60   ~ 0
-IO.17
-Text Label 1200 1700 2    60   ~ 0
-IO.16
-Text Label 1200 1800 2    60   ~ 0
-IO.15
-Text Label 1200 1900 2    60   ~ 0
-IO.14
-Text Label 1200 2000 2    60   ~ 0
-IO.13
-Text Label 1200 2100 2    60   ~ 0
-IO.12
-Text Label 1200 2200 2    60   ~ 0
-IO.11
-Text Label 1200 2300 2    60   ~ 0
-IO.10
-Text Label 1200 2400 2    60   ~ 0
-IO.09
-Text Label 1200 2500 2    60   ~ 0
-IO.08
 Text GLabel 1200 2600 0    60   Input ~ 0
 USART1_RX
 Text GLabel 1200 2700 0    60   Input ~ 0
@@ -539,4 +516,28 @@ Text Label 2750 1300 0    60   ~ 0
 VREF1
 Wire Wire Line
 	2750 1300 2500 1300
+Text GLabel 1200 1400 0    60   Input ~ 0
+MEM_CS_1
+Text GLabel 1200 1500 0    60   Input ~ 0
+MEM_WP_1
+Text GLabel 1200 1600 0    60   Input ~ 0
+MEM_CS_2
+Text GLabel 1200 1700 0    60   Input ~ 0
+MEM_WP_2
+Text GLabel 1200 1800 0    60   Input ~ 0
+MEM_CS_3
+Text GLabel 1200 1900 0    60   Input ~ 0
+MEM_WP_3
+Text GLabel 1200 2000 0    60   Input ~ 0
+MEM_CS_4
+Text GLabel 1200 2100 0    60   Input ~ 0
+MEM_WP_4
+Text GLabel 1200 2200 0    60   Input ~ 0
+SCK1
+Text GLabel 1200 2300 0    60   Input ~ 0
+SDI1
+Text GLabel 1200 2400 0    60   Input ~ 0
+SDO1
+Text Label 1200 2500 2    60   ~ 0
+IO.8
 $EndSCHEMATC
