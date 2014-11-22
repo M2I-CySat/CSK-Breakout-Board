@@ -36,14 +36,13 @@ LIBS:RF_OEM_Parts
 LIBS:Sensors
 LIBS:TransistorParts
 LIBS:CubeSat
-LIBS:BreakoutBoard-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 3 3
 Title ""
-Date "18 oct 2014"
+Date ""
 Rev ""
 Comp ""
 Comment1 ""
@@ -51,33 +50,4 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L CONN_5 P?
-U 1 1 54338C06
-P 1000 6300
-F 0 "P?" V 950 6300 50  0000 C CNN
-F 1 "USB" V 1050 6300 50  0000 C CNN
-F 2 "~" H 1000 6300 60  0000 C CNN
-F 3 "~" H 1000 6300 60  0000 C CNN
-	1    1000 6300
-	-1   0    0    1   
-$EndComp
-$Sheet
-S 5550 5300 800  550 
-U 54338D2E
-F0 "CubeSat Bus" 50
-F1 "CubeSatBus.sch" 50
-$EndSheet
-$Sheet
-S 7700 4000 1300 700 
-U 543726AE
-F0 "Bus Pirate Connectors" 60
-F1 "BusPirateConnectors.sch" 60
-$EndSheet
-$Sheet
-S 3100 3850 1150 600 
-U 5441B61F
-F0 "Power Supplies" 50
-F1 "PowerSupplies.sch" 50
-$EndSheet
 $EndSCHEMATC

@@ -37,13 +37,13 @@ LIBS:Sensors
 LIBS:TransistorParts
 LIBS:CubeSat
 LIBS:BreakoutBoard-cache
-EELAYER 25 0
+EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 3
+Sheet 2 4
 Title ""
-Date "7 oct 2014"
+Date "18 oct 2014"
 Rev ""
 Comp ""
 Comment1 ""
